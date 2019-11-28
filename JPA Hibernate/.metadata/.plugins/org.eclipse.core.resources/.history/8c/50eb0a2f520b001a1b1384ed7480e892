@@ -1,0 +1,12 @@
+package com.ust.demoapp.dto;
+
+
+
+public class SelectQuery {
+	
+	public static void main(String[] args) {
+		
+		
+
+}
+}

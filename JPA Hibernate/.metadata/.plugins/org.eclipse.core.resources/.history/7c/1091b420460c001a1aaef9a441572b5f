@@ -1,0 +1,43 @@
+package com.ustglobal.jspwithhibernateapp.jpql;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+import javax.persistence.Query;
+
+import com.ustglobal.jspwithhibernateapp.dto.Product;
+
+public class ReadDemo {
+	
+	public static void main(String[] args) {
+		
+		EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("TestPersistence");
+		EntityManager entityManager = entityManagerFactory.createEntityManager();
+		
+		String jpql = "from Product";
+		Query query = entityManager.createQuery(jpql);
+		
+		ArrayList<Product> al = (ArrayList<Product>)query.getResultList();
+		List<Product> ll = query.getResultList();
+		
+		for (Product product : al) {
+			System.out.println(product.getPid());
+			System.out.println(product.getPname());
+			System.out.println(product.getQuantity());
+		}
+		
+
+		for (Product product : ll) {
+			System.out.println(product.getPid());
+//			System.out.println(product.getPname());
+//			System.out.println(product.getQuantity());
+		}
+		
+		
+	
+	}//end of main method
+
+}//end of the class

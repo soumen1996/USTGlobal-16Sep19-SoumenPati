@@ -1,0 +1,26 @@
+package stcom.ustglobal.streams.list;
+
+import java.util.ArrayList;
+
+public class TestD {
+	
+	public static void main(String[] args) {
+		ArrayList<Integer> marks = new ArrayList<Integer>();
+		marks.add(70);
+		marks.add(25);
+		marks.add(35);
+		marks.add(30);
+		marks.add(90);
+		marks.add(45);
+		
+		long noOfFailedStudents = marks.stream().filter(i -> i<40).count();
+		System.out.println(noOfFailedStudents);
+		
+		System.out.println("===========");
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,17 @@
+package com.ustglobal.jspwithhibernateapp.onetomany;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+
+public class PencilBox {
+	
+	@Id
+	@Column
+	private int bid;
+	
+	@Column
+	private String bname;
+	
+	
+
+}

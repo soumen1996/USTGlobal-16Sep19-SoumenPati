@@ -1,0 +1,5 @@
+package com.ust.demoapp.dto;
+
+public class SelectQuery {
+
+}

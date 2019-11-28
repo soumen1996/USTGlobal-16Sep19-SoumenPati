@@ -1,0 +1,31 @@
+package com.ustglobal.jspwithhibernateapp.onetoone;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+import lombok.Data;
+import lombok.EqualsAndHashCode.Exclude;
+
+@Entity
+@Table(name = "voter")
+@Data
+public class VoterId {
+	
+	@Id
+	@Column
+	private int vid;
+	
+	@Column
+	private String vname;
+	
+	@Exclude
+	@OneToOne(mappedBy = "voterId")
+	private Person person;
+	
+	
+	
+
+}

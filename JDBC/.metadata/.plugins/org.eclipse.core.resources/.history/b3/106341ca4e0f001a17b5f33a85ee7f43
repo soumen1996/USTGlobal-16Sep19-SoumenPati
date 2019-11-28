@@ -1,0 +1,9 @@
+package com.ustglobal.phonesimulatorapp.dao;
+
+public interface ContactDao {
+	
+	
+	public List<ContactBean> getAllContact();
+	public ContactBean showAllContact();
+	public ContactBean searchContact(String name);
+}

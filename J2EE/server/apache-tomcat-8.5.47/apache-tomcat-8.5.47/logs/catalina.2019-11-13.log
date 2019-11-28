@@ -1,0 +1,129 @@
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.47
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2019 13:30:46 UTC
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.47.0
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_201\jre
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_201-b09
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\conf\logging.properties
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\temp
+13-Nov-2019 11:26:52.683 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Users\DELL\AppData\Local\Programs\Fiddler;.]
+13-Nov-2019 11:26:53.105 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2019 11:26:53.449 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2019 11:26:53.496 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2019 11:26:53.496 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2019 11:26:53.496 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1953 ms
+13-Nov-2019 11:26:53.652 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2019 11:26:53.652 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+13-Nov-2019 11:26:53.715 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\webapp.war]
+13-Nov-2019 11:26:54.371 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2019 11:26:54.511 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\webapp.war] has finished in [796] ms
+13-Nov-2019 11:26:54.527 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\docs]
+13-Nov-2019 11:26:54.574 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\docs] has finished in [47] ms
+13-Nov-2019 11:26:54.574 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\examples]
+13-Nov-2019 11:26:56.308 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\examples] has finished in [1,734] ms
+13-Nov-2019 11:26:56.308 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\host-manager]
+13-Nov-2019 11:26:56.371 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\host-manager] has finished in [63] ms
+13-Nov-2019 11:26:56.371 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\manager]
+13-Nov-2019 11:26:56.433 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\manager] has finished in [62] ms
+13-Nov-2019 11:26:56.433 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\ROOT]
+13-Nov-2019 11:26:56.480 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\ROOT] has finished in [47] ms
+13-Nov-2019 11:26:56.480 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2019 11:26:56.496 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2019 11:26:56.511 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3015 ms
+13-Nov-2019 11:30:58.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.47
+13-Nov-2019 11:30:58.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2019 13:30:46 UTC
+13-Nov-2019 11:30:58.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.47.0
+13-Nov-2019 11:30:58.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2019 11:30:58.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2019 11:30:58.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2019 11:30:58.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_201\jre
+13-Nov-2019 11:30:58.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_201-b09
+13-Nov-2019 11:30:58.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2019 11:30:58.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47
+13-Nov-2019 11:30:58.905 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47
+13-Nov-2019 11:30:58.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\conf\logging.properties
+13-Nov-2019 11:30:58.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2019 11:30:58.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Nov-2019 11:30:58.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Nov-2019 11:30:58.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Nov-2019 11:30:58.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47
+13-Nov-2019 11:30:58.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47
+13-Nov-2019 11:30:58.921 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\temp
+13-Nov-2019 11:30:58.921 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Users\DELL\AppData\Local\Programs\Fiddler;.]
+13-Nov-2019 11:30:59.093 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2019 11:30:59.374 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2019 11:30:59.390 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2019 11:30:59.405 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2019 11:30:59.405 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1016 ms
+13-Nov-2019 11:30:59.452 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2019 11:30:59.452 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+13-Nov-2019 11:30:59.483 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\webapp.war]
+13-Nov-2019 11:30:59.843 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2019 11:30:59.890 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\webapp.war] has finished in [407] ms
+13-Nov-2019 11:30:59.905 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\docs]
+13-Nov-2019 11:30:59.936 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\docs] has finished in [46] ms
+13-Nov-2019 11:30:59.936 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\examples]
+13-Nov-2019 11:31:00.327 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\examples] has finished in [391] ms
+13-Nov-2019 11:31:00.327 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\host-manager]
+13-Nov-2019 11:31:00.374 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\host-manager] has finished in [47] ms
+13-Nov-2019 11:31:00.374 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\manager]
+13-Nov-2019 11:31:00.405 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\manager] has finished in [31] ms
+13-Nov-2019 11:31:00.405 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\ROOT]
+13-Nov-2019 11:31:00.436 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\ROOT] has finished in [31] ms
+13-Nov-2019 11:31:00.436 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2019 11:31:00.468 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2019 11:31:00.468 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1063 ms
+13-Nov-2019 11:32:56.934 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.47
+13-Nov-2019 11:32:56.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 7 2019 13:30:46 UTC
+13-Nov-2019 11:32:56.949 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.47.0
+13-Nov-2019 11:32:56.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Nov-2019 11:32:56.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Nov-2019 11:32:56.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Nov-2019 11:32:56.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_201\jre
+13-Nov-2019 11:32:56.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_201-b09
+13-Nov-2019 11:32:56.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Nov-2019 11:32:56.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47
+13-Nov-2019 11:32:56.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47
+13-Nov-2019 11:32:56.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\conf\logging.properties
+13-Nov-2019 11:32:56.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Nov-2019 11:32:56.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Nov-2019 11:32:56.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Nov-2019 11:32:56.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Nov-2019 11:32:56.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47
+13-Nov-2019 11:32:56.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47
+13-Nov-2019 11:32:56.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\temp
+13-Nov-2019 11:32:56.980 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Users\DELL\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;;C:\Users\DELL\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DELL\AppData\Roaming\npm;C:\Users\DELL\AppData\Local\Programs\Fiddler;.]
+13-Nov-2019 11:32:57.152 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+13-Nov-2019 11:32:57.402 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2019 11:32:57.418 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2019 11:32:57.418 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Nov-2019 11:32:57.418 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1008 ms
+13-Nov-2019 11:32:57.465 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Nov-2019 11:32:57.465 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.47
+13-Nov-2019 11:32:57.496 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\webapp.war]
+13-Nov-2019 11:32:57.855 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+13-Nov-2019 11:32:57.918 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\webapp.war] has finished in [422] ms
+13-Nov-2019 11:32:57.918 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\docs]
+13-Nov-2019 11:32:57.949 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\docs] has finished in [31] ms
+13-Nov-2019 11:32:57.949 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\examples]
+13-Nov-2019 11:32:58.371 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\examples] has finished in [422] ms
+13-Nov-2019 11:32:58.371 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\host-manager]
+13-Nov-2019 11:32:58.402 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\host-manager] has finished in [31] ms
+13-Nov-2019 11:32:58.402 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\manager]
+13-Nov-2019 11:32:58.449 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\manager] has finished in [31] ms
+13-Nov-2019 11:32:58.449 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\ROOT]
+13-Nov-2019 11:32:58.480 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [E:\UST Training\J2EE\server\apache-tomcat-8.5.47\apache-tomcat-8.5.47\webapps\ROOT] has finished in [31] ms
+13-Nov-2019 11:32:58.480 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+13-Nov-2019 11:32:58.496 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Nov-2019 11:32:58.496 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1080 ms

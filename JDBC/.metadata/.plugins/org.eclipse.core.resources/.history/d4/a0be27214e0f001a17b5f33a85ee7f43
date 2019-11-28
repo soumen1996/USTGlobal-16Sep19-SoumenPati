@@ -1,0 +1,13 @@
+package com.ustglobal.phonesimulatorapp.dao;
+
+import java.util.List;
+
+import com.ustglobal.phonesimulatorapp.dto.ContactBean;
+
+import com.ustglobal.phonesimulatorapp.dto.ContactBean;
+
+public class ContactDao {
+
+	
+
+}

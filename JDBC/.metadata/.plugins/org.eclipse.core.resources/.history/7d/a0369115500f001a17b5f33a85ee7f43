@@ -1,0 +1,64 @@
+package com.ustglobal.phonesimulatorapp;
+
+import java.util.List;
+import java.util.Scanner;
+
+import com.ustglobal.empapp.dao.EmployeeDAO;
+import com.ustglobal.empapp.dto.EmployeeBean;
+import com.ustglobal.empapp.util.EmployeeManager;
+
+public class App {
+	
+		public static void main(String[] args) {
+			 
+			
+			System.out.println("Press 1 to Show All Contacts");
+			System.out.println("Press 2 to Search For Contact");
+			System.out.println("Press 3 to Operate on Contact");
+			
+			
+			
+			Scanner scn = new Scanner(System.in);
+			int ch = scn.nextInt();		
+			switch (ch) {
+			case 1:
+
+				EmployeeDAO dao = EmployeeManager.getEmployeeDao();
+				List<EmployeeBean> result = dao.getAllEmployeeData();
+				for(EmployeeBean bean : result) {
+					System.out.println("Id: "+bean.getId());
+					System.out.println("Name: "+bean.getName());
+					System.out.println("Gender: "+bean.getGender());
+					System.out.println("Salary: "+bean.getSal());
+					
+				}
+				break;
+				
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4:
+				break;
+			case 5:
+				EmployeeDAO dao5 = EmployeeManager.getEmployeeDao();
+				int id = scn.nextInt();
+				EmployeeBean bean = dao5.searchEmployeeData(id);
+				if(bean !=null) {
+					System.out.println("Id: "+bean.getId());
+					System.out.println("Name: "+bean.getName());
+					System.out.println("Gender: "+bean.getGender());
+					System.out.println("Salary: "+bean.getSal());
+				}else {
+					System.out.println("No Data Found");
+				}
+				
+				
+				break;
+			}
+			
+			
+				
+		}//end of main
+		}
+}

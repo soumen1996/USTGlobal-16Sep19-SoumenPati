@@ -1,0 +1,18 @@
+JAR file is collection of collection of .class file.
+WAR combination of Java Resources(JAR)+extra Resources(Web).
+WAR: Web Archieve Resources.
+EAR:Enterprise Archieve(WAR+Extra REsources)
+
+Create database ust_web_db;
+
+use ust_ty_web_db;
+create table employee_info(id int primary key,name varchar(100) not null,email varchar(100) 
+not null,password varchar(100) not null); 
+
+insert into employee_db values(1,'Soumen Pati',,"M");
+
+Create 4 packages.Servlets,dao,dto,util.
+Use DTO: Data transfer object-pojo/java bean class
+Download lambok(1.18.8) from mvnrepository
+Use DAO
+Util class

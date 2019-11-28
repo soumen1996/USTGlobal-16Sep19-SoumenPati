@@ -1,0 +1,54 @@
+package com.ustglobal.maps;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Iterator;
+
+public class TestG {
+	
+	public static void main(String[] args) {
+		
+		Emp e1 = new Emp(1, "Pawan", 30000);
+		Emp e2 = new Emp(2, "Priyanka", 31000);
+		Emp e3 = new Emp(3, "ReshuRani", 15000);
+		Emp e4 = new Emp(4, "Anushka", 47000);
+		Emp e5 = new Emp(5, "Swathi", 37000);
+		Emp e6 = new Emp(6, "Priya", 79000);
+		Emp e7 = new Emp(7, "Soumen", 27000);
+		Emp e8 = new Emp(8, "Swatima", 55000);
+		Emp e9 = new Emp(9, "Sumer", 33000);
+		
+		ArrayList<Student> al = new ArrayList<>();
+		al.add(s1);
+		al.add(s2);
+		al.add(s3);
+		
+		ArrayList<Student> all = new ArrayList<>();
+		all.add(s4);
+		all.add(s5);
+		all.add(s6);
+		
+		ArrayList<Student> all1 = new ArrayList<Student>();
+		all1.add(s7);
+		all1.add(s8);
+		all1.add(s9);
+		
+		HashMap<String, ArrayList<Student>> hm = new HashMap<>();
+		
+		hm.put("first", al);
+		hm.put("Second", all);
+		hm.put("Third", all1);
+		
+		ArrayList<Student> first = hm.get("Second");
+		Iterator<Student> it = first.iterator();
+		while(it.hasNext()) {
+			Student s = it.next();
+			System.out.println("Id is "+s.id);
+			System.out.println("Name is "+s.name);
+			System.out.println("Percentage is "+s.percentage);
+			System.out.println("========================");
+		}
+		
+	}
+
+}

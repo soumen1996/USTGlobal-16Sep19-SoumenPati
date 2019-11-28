@@ -1,0 +1,17 @@
+package com.ustglobal.jspwithhibernateapp.onetoone;
+
+import javax.persistence.Column;
+import javax.persistence.Id;
+
+public class VoterId {
+	
+	@Id
+	@Column
+	private int vid;
+	
+	@Column
+	private String vName;
+	
+	
+
+}

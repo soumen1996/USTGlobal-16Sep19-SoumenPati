@@ -1,0 +1,17 @@
+package com.ustglobal.jspwithhibernateapp.onetomany;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+import lombok.Data;
+
+@Data
+@Entity
+@Table
+public class Pencil {
+	
+	private int pid;
+	private String color;
+	
+	
+}

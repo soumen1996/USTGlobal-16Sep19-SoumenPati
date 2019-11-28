@@ -1,0 +1,5 @@
+package com.ustglobal.jspwithhibernateapp.manytomany;
+
+public class ManyToMany {
+
+}

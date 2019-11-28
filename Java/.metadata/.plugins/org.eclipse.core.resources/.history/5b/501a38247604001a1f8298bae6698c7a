@@ -1,0 +1,18 @@
+package com.ustglobal.thread.pausing;
+
+public class Counter {
+	
+	int v;
+	synchronized public void increment(){
+		v++;
+	}
+	
+	synchronized public void decrement() {
+		v--;
+	}
+	
+	synchronized 203public void showValue() {
+		System.out.println("V's value is: "+v);
+	}
+
+}

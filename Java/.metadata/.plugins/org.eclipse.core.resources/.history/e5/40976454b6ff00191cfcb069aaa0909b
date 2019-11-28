@@ -1,0 +1,27 @@
+package com.ustglobal.java8features.predicate;
+
+import java.util.function.Predicate;
+
+public class TestA {
+	
+	public static void main(String[] args) {
+		
+		
+		Predicate<Voting> p = (v) ->{
+			if(v.age >= 18) {
+				return true;
+			}
+			else {
+				return false;
+			}
+		};
+		Voting v = new Voting("012SVJSH", "Soumen Pati", 23);
+		
+		boolean result = p.test(v);
+		System.out.println(result);
+		
+
+		
+	}
+
+}

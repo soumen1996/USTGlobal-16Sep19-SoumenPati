@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;studentapp/src/com/ustglobal/studentapp/qspiders/qtp.java&apos; to &apos;Qtp.java&apos;" description="Rename resource &apos;qtp.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/ustglobal/studentapp/qspiders/qtp.java" name="Qtp.java" stamp="1571902219895" updateReferences="true"/>
+</session>

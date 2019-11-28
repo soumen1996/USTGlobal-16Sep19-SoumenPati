@@ -1,0 +1,8 @@
+INDEX VERSION 1.130+E:\UST Training\JDBC\.metadata\.plugins\org.eclipse.jdt.core
+3374119244.index
+496138473.index
+3005947353.index
+2002773381.index
+2805657239.index
+3940174555.index
+3275800694.index

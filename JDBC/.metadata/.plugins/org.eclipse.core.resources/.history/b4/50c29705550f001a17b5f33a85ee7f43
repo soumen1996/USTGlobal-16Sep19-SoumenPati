@@ -1,0 +1,11 @@
+package com.ustglobal.phonesimulatorapp.dao;
+
+import java.util.List;
+
+import com.ustglobal.phonesimulatorapp.dto.ContactBean;
+
+public interface ContactDao {
+	
+	public List<ContactBean> showAllContact();
+	public ContactBean searchContact(String name);
+}

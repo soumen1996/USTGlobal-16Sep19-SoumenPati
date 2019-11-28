@@ -1,0 +1,13 @@
+package com.ustglobal.jspwithhibernateapp.jpql;
+
+import javax.persistence.Persistence;
+
+public class ReadDemo {
+	
+	public static void main(String[] args) {
+		
+		entityManagerFactory = Persistence.createEntityManagerFactory("TestPersistence");
+		 entityManager = entityManagerFactory.createEntityManager();
+	}
+
+}

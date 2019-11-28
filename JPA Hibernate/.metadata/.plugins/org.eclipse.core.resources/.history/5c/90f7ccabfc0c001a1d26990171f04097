@@ -1,0 +1,33 @@
+package com.ustglobal.jspwithhibernateapp.onetomany;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+
+import antlr.collections.List;
+import lombok.Data;
+import lombok.ToString.Exclude;
+
+
+@Entity
+@Data
+@Table(name = "pencilBox")
+public class PencilBox {
+	
+	@Id
+	@Column
+	private int bid;
+	
+	@Column
+	private String bname;
+	
+	@Exclude
+	@OneToMany(mappedBy = "pencilBox")
+	private java.util.List<Pencil> pencil;
+	
+	
+	
+
+}

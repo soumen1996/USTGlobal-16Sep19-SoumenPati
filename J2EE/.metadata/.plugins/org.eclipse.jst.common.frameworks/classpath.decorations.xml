@@ -1,0 +1,7 @@
+<classpath>
+  <container id="webapp!org.eclipse.jst.j2ee.internal.web.container">
+    <entry id="E:/UST Training/J2EE/webapp/WebContent/WEB-INF/lib/javax.servlet-api-3.1.0.jar">
+      <source-attachment-path>C:/Program Files/Java/jdk1.8.0_201</source-attachment-path>
+    </entry>
+  </container>
+</classpath>
