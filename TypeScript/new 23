@@ -1,0 +1,12 @@
+npm installations: npm install -g Typescript [**To install globally]
+for converting .ts file to .js file : tsc filename.tsc
+for checking npm is correctly installed or not: npm -v
+For installing node js: nodejs.org
+tsconfig.json file creation: tsc -- init
+for creation of package.json : npm init
+to create node_module or inside it system.js consist: npm install systemjs@0.19.36
+to check node module : npm i systemjs
+get the version of typescript : tsc -v 
+
+*node package manager
+when compilation successfull then .js file is created.then we can run it through html.
