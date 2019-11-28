@@ -1,0 +1,97 @@
+ create table employee(eid int(100),ename varchar(100),mobile_no int(100) unique,d_o_b date not null,age int,d_0_j date,blood_group varchar(100),deptno int,      
+ salary int,email varchar(100),gender varchar(100),primary key(eid));
+
+insert into employee values(06,"Gaitonde Vao",9999999,'1976-02-29',99,'2019-09-14',"A-",40,30000,"kukkulove@gmail.com","Male","Bhagwan");
+
+Write a query to display the record of the employees who are working in dept.20 and as well as salary is greater than 20000
+select * from employee where dept.no=20 and sal>20000.
+
+Write a query to display name salary from the employee table who is working on dept. no 10 & 20
+select ename,sal from employee
+where dept=10 and dept=20;
+
+write a query to display employee details whose job designation is tester and age is 25
+select * from employee
+where job='Tester' and age=25
+
+Write a query to display all the record of the employee who is working as a tester or having salary more than 40k
+select * from employee
+where job='tester' and salary>40000;
+
+write a query to display name salary age from the employee table who is working on dept no 10 or 40 or 50
+select ename,sal,age from employee
+where deptno=10 or deptno=40 or deptno=50
+write a query to display employee detail of employee whose age is more than 25 and blood groop is b+
+select * from employee
+where age>25 and bloodgroup='b+'
+Write a query to display all the record of the employee excluding tester
+select * from employee where not 
+desgnation='Tester';
+select * from employee where
+designation <>'tester'
+write a query to display name of all the employee who is working as HR or tester and sal is greater than 40,000
+select * from employee
+where designation='Hr' or desgnation='tester'
+and sal>400000
+write a query to display all the employee excluding software developer who are working in deptno 40
+select * from employee
+where not (designation<>'software developer' and dept=40);
+order execuation not>and>or
+write a query to display all the software developer who are working for 10 or 40
+select * from employee
+where designation='software developer' and deptno(10,40);
+Write a query to display all the record of the employee who are working in dept no 40,50,70,80
+Select * from employee where dept_no in(40,50,70,80);
+write a query to display the name of all employees who are working as tester hr admin
+select * from employee where designation in('tester','hr','admin');
+write a query to displaythe record of tester admin software devolper who are workingin dept no 20 or 30 and salary is greater than 40000
+select * from employee
+where desgnation in('admin','s/d','tester')
+and deptno in(20,30) and sal>40000
+Write a query to display all the record of employee excluding who are working as a tester admin hr
+Write a query to display all the record of employee whose age is 20,25,30,40 excluding all the details of tester and developer
+Write a query to display all the detail of employee whose age is between 20 to 40
+select * from employee where age between 20 and 40;
+write a query to display the record of the employee who were hired during 2017
+select * form employee where hiring date between '2017-01-01' and '2017-12-31';
+write a query to display all the record of employee excluding whose salary is in the range of 25000 to 30000
+write a query to display all the record of employee whoose name start with a?
+select * from employee
+    -> where ename like 'a%';
+	write a query to display who name second charecter is I?
+	select * from employee
+	where ename like '_a%';
+write a query to display the name of the employee which has atleast two L in thir name
+select * from employee
+where ename like '%l%l%';
+write a query to display the name of teh employee whose name starts with s and end with p?
+select * from employee
+where ename like 's%p';
+write a query to display all the records of the employee if the employee name begins with a or s
+sleect * from employee
+where ename like 'A%' or ename like 'S%'
+write a query to display employee name,salary who is working in deptno 10,20,30 and job designation start with s
+select ename,salary from employee
+    -> where deptno in(10,20,30) and designation like 's%';
+Write a query to display all the records of employee and salary should be descending order.
+select * from employee
+ order by salary desc;
+Write a query to display all the record of the employee whose day of joining is same as Pawan.
+select * from employee where doj=(select doj from employee where ename='Rahul');
+Write a query to display the second maximum salary.
+select max(salary) from employee where salary<(select max(salary) from employee);
+Write a query to display name of the employee who si working in A location which has atleast one a in the location
+ select * from employee where deptno in (select deptno from  department where location like'%A%');
+ Write a query to display all the record of the employee who is working in admin hr operators.
+Write a query to display maximum salary for each dept. 
+select max(salary) from employee
+group by salary;
+
+Write a query to display the highest salary to the hr in each department.
+select max(salary) from employee where
+designation='HR'
+group by deptno;
+Write a query to display departmentno which has atleast two employee
+select * from employee
+group by deptno
+ having count(*)>=1;
