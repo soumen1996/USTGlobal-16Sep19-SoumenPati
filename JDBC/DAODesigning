@@ -1,0 +1,5 @@
+Rules for DAO Desgining:
+[It is a general desgin pattern,we can use it anywhere]
+Should have one interface with common abstact method then give the implementation in a class which does the operation .
+Create a factory method in factory class and call that factory method to get the object of type that DAO inteface.
+In DAO we should not write any other code apart from that jdbc code.

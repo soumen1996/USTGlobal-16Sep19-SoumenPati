@@ -1,0 +1,34 @@
+class X{
+			X m1()//all methods returns class type
+				{
+				
+				
+				}
+				
+			X m2()
+				{
+				
+				
+				}
+			
+			X m3()
+				{
+				
+				
+				}
+		}
+		
+class Y{
+
+	X x = new x().m1();//before reffering to the object we have created so many method
+}
+
+**It's make our program much more easier.
+
+Class Test{
+	main(){
+		StringBuffer buffer = new StringBuffer.append("Hello").append("World");
+		
+		System.out.println(buffer);
+	}
+}
