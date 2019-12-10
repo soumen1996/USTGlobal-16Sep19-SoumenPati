@@ -1,0 +1,34 @@
+package com.ustglobal.springrest.service;
+
+import java.util.List;
+
+import com.ustglobal.springrest.dto.EmployeeBean;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Override
+	public boolean addEmployee(EmployeeBean bean) {
+		return false;
+	}
+
+	@Override
+	public boolean modifyEmployee(EmployeeBean bean) {
+		return false;
+	}
+
+	@Override
+	public boolean deleteEmployee(int id) {
+		return false;
+	}
+
+	@Override
+	public EmployeeBean getEmployee(int id) {
+		return null;
+	}
+
+	@Override
+	public List<EmployeeBean> getAllEmployee() {
+		return null;
+	}
+	
+}

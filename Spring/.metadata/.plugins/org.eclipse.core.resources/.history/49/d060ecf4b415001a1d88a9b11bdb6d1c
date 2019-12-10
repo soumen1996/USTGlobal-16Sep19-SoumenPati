@@ -1,0 +1,24 @@
+package com.ustglobal.springrest.controller;
+
+import com.ustglobal.springrest.dto.EmployeeBean;
+
+public class EmployeeController {
+	
+	public boolean addEmployee(EmployeeBean bean) {
+		return false;
+	}
+	
+	public boolean modifyEmployee(EmployeeBean bean) {
+		return false;
+	}
+	
+	public boolean deleteEmployee(int id) {
+		return false;
+	}
+	
+	public EmployeeBean getEmployee(int id) {
+		return null;
+	}
+	
+	
+}

@@ -1,0 +1,5 @@
+package com.ustglobal.rmsspringmvc.dto;
+
+public class OrderBean {
+
+}

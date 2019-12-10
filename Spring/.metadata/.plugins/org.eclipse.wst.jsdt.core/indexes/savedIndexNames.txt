@@ -1,0 +1,10 @@
+INDEX VERSION 1.4+E:\UST Training\Spring\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+4016745516.index
+3362235402.index
+502058192.index
+3239683873.index
+2871349641.index
+2757675236.index
+2921713242.index
+4116788008.index
+485642199.index

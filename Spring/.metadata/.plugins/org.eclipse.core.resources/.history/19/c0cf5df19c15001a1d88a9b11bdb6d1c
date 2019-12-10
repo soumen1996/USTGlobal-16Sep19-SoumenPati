@@ -1,0 +1,14 @@
+package com.ustglobal.springrest.dto;
+
+import java.util.Date;
+
+public class EmployeeBean {
+
+	private int id;
+	private String password;
+	private String name;
+	private String gender;
+	private Date date;
+	
+	
+}

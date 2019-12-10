@@ -1,0 +1,11 @@
+package com.ust.springcore.di;
+
+public class Book {
+	
+	private String name;
+	private String petName;
+	private int price;
+	
+	
+
+}
