@@ -1,0 +1,49 @@
+
+<form action="" class="col-md-4 offset-4 mt-4 mb-4 bg-light card card-body" #form="ngForm" (ngSubmit)="registerData(form)" method="POST">
+        <h1 class="text-center text-success"> Register </h1>
+        <div class="form-group">
+            <input type="text" name="sname" id="sname" class="form-control" placeholder="Enter Your Name" #sname="ngModel" ngModel required>
+            <div *ngIf="sname.touched && sname.invalid">
+                <p *ngIf="sname.errors.required" class="text-danger text-center"> * this field is required </p>
+            </div>
+        </div>
+        <div class="form-group">
+            <input type="password" name="spassword" id="spassword" class="form-control" placeholder="Enter Your Password" #spassword="ngModel" ngModel required>
+            <div *ngIf="spassword.touched && spassword.invalid">
+                <p *ngIf="spassword.errors.required" class="alert alert-danger"> * this field is required</p>
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <input type="text" name="sgender" id="sgender" class="form-control" placeholder="Gender" #sgender="ngModel" ngModel required>
+            <div *ngIf="sgender.touched && sgender.invalid">
+                <p *ngIf="sgender.errors.required" class="alert alert-danger"> * this field is required</p>
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <input type="email" name="semail" id="semail" class="form-control" placeholder="Email" #semail="ngModel" ngModel required>
+            <div *ngIf="semail.touched && semail.invalid">
+                <p *ngIf="semail.errors.required" class="alert alert-danger"> * this field is required</p>
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <input type="number" name="sregisterNo" id="sregisterNo" class="form-control" placeholder="Enter Your Register Number" #sregisterNo="ngModel" ngModel required>
+            <div *ngIf="sregisterNo.touched && sregisterNo.invalid">
+                <p *ngIf="sregisterNo.errors.required" class="alert alert-danger"> * this field is required</p>
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <input type="text" name="sbranch" id="sbranch" class="form-control" placeholder="Branch" #sbranch="ngModel" ngModel required>
+            <div *ngIf="sbranch.touched && sbranch.invalid">
+                <p *ngIf="sbranch.errors.required" class="alert alert-danger"> * this field is required</p>
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <button type="reset" class="btn btn-outline-success float-center">Reset</button> 
+            <button type="submit" class="btn btn-outline-success float-right" [disabled]="form.invalid" >Register</button>
+        </div>
+    </form>

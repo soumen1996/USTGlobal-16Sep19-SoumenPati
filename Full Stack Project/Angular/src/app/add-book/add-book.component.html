@@ -1,0 +1,35 @@
+
+<form action="" class="col-md-4 offset-4 mt-4 mb-4 bg-light card card-body" #form="ngForm" (ngSubmit)="addData(form)" method="POST">
+        <h1 class="text-center text-white text-nowrap text-success"> Add Book </h1>
+        <div class="form-group">
+            <input type="text" name="bname" id="bname" class="form-control" placeholder="Enter The Book Name" #bname="ngModel" ngModel required>
+            <!-- <div *ngIf="bname.touched && bname.invalid">
+                <p *ngIf="bname.errors.required" class="text-danger text-center"> * this field is required </p>
+            </div> -->
+        </div>
+        <div class="form-group">
+            <input type="text" name="bauthor" id="bauthor" class="form-control" placeholder="Enter The Author Name" #bauthor="ngModel" ngModel required>
+            <!-- <div *ngIf="bauthor.touched && spassword.invalid">
+                <p *ngIf="bauthor.errors.required" class="alert alert-danger"> * this field is required</p>
+            </div> -->
+        </div>
+    
+        <div class="form-group">
+            <input type="number" name="bcost" id="bcost" class="form-control" placeholder="Enter The Book Cost" #bcost="ngModel" ngModel required>
+            <!-- <div *ngIf="bcost.touched && bcost.invalid">
+                <p *ngIf="bcost.errors.required" class="alert alert-danger"> * this field is required</p>
+            </div> -->
+        </div>
+     
+        <div class="form-group">
+            <input type="number" name="bquantity" id="bquantity" class="form-control" placeholder="Enter The Quantity Of Book" #bquantity="ngModel" ngModel required>
+            <!-- <div *ngIf="bquantity.touched && bquantity.invalid">
+                <p *ngIf="bquantity.errors.required" class="alert alert-danger"> * this field is required</p>
+            </div> -->
+        </div>
+    
+        <div class="form-group">
+            <button type="reset" class="btn btn-outline-success float-center">Reset</button> 
+            <button type="submit" class="btn btn-outline-success float-right" [disabled]="form.invalid" > Add </button>
+        </div>
+    </form>
